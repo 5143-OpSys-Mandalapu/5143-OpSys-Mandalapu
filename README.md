@@ -1,4 +1,4 @@
-![Vishnu's image](blob:https%3A//drive.google.com/526779b6-f089-40b9-bbc5-b75e573fa6bf)
+![Vishnu's image](https://cloud.githubusercontent.com/assets/16729845/12647766/781c8128-c59c-11e5-9bdd-beea97c1db61.jpg)
 
 <h2> *Vishnu Chaitanya Mandalapu* 
 <h4> **Contact Information**
