@@ -1,5 +1,4 @@
 #!/bin/bash
-
 #printing a random word.
 echo "Random word generated with this script is : "
 rand=/usr/share/dict/words
