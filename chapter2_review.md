@@ -45,11 +45,11 @@ Execution context of the process is the internal data by which Operating System 
 
 ## 8. Describe the round-robin scheduling technique.
 
-Your answer to question one here...
+###To be discussed
 
 ## 9. Explain the difference between a monolithic kernel and a microkernel.
 
-Your answer to question one here...
+###To be discussed
 
 ## 10. What is multithreading?
 
@@ -57,4 +57,4 @@ Multithreading is the technique in which the processes are divided into smaller 
 
 ## 11. List the key design issues for an SMP operating system.
 
-Your answer to question one here...
+###To be discussed
