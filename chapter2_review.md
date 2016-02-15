@@ -37,7 +37,11 @@ Execution context of the process is the internal data by which Operating System 
 
 ## 7. Explain the distinction between a real address and a virtual address.
 
-Your answer to question one here...
+1. Real address refer to hardware address of physical memory.
+   Virtual address refer to virtual store which exists on the secondary memory in the computer.
+2. Access to real address is faster than access to virtual address.
+3. Number of virtual addresses \(the storage space\) are more than real addresses.
+4. Real addresses are stored in Frames, while virtual addresses are stored in pages. On any given machine, the size of the page is same as the size of frame.
 
 ## 8. Describe the round-robin scheduling technique.
 
@@ -49,7 +53,7 @@ Your answer to question one here...
 
 ## 10. What is multithreading?
 
-Your answer to question one here...
+Multithreading is the technique in which the processes are divided into smaller moudles called threads and are executed concurrently. Thread is a light-weight dispachable unit of work.
 
 ## 11. List the key design issues for an SMP operating system.
 
