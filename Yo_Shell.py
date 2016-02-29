@@ -255,7 +255,7 @@ def lsWithFlag(first):
         for f in files:
             fileList=fileList.append(f)
     for fl in fileList:
-        permiss = oct(fl & 0777) 
+        permiss = oct(fl & 777) 
         
     if first == "-s"
        flist.sort(key=lambda fl: fl[7]) 
