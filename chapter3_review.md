@@ -63,9 +63,11 @@ Process control information
 
 ## 6 - 3.13 Give three examples of an interrupt.
 
-
+1. Interrupt caused by an external device, like click of mouse or keyboard press. This is External Interrupt.
+2. Interrupt Caused by an instruction like “Div by 0”. This is called internal Interrupt
+3. System error or Power Failure.
 
 
 ## 7 - 3.14 What is the difference between a mode switch and a process switch?
 
-Your answer to question one here...
+A mode switch may occur without changing the state of the process that is currently in running state. Whereas process context switch involves moving the currently executing process out of running state
