@@ -63,7 +63,7 @@ Process control information
 
 ## 6 - 3.13 Give three examples of an interrupt.
 
-Your answer to question 2 here ...
+
 
 
 ## 7 - 3.14 What is the difference between a mode switch and a process switch?
