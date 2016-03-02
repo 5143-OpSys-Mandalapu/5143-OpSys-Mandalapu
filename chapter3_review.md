@@ -15,7 +15,7 @@ Swapping is a form of memory management. It is moving from/to secondary storage 
 
 ## 3 - 3.9 List three general categories of information in a process control block.
 
-Process Identification
+Process Identification: 
 
 Processor state information
 
@@ -24,8 +24,33 @@ Process control information
 
 ## 4 - 3.10 Why are two modes (user and kernel) needed?
 
-Your answer to question 2 here ...
+- From a programmer's point of view, the system is the CPU used to execute instructions plus the memory used to hold instructions and data. 
 
+- This simplistic view might have been true when one person owned a microcomputer which ran one program at a time, but this is no longer the case. 
+
+- Now we have computers which: 
+
+    - Run multiple programs at the same time, and each needs its own memory space. 
+    
+    - Switch the CPU quickly between programs to give the illusion that they are running at the same time. 
+    
+    - Hold documents for several users, with the expectation that each user can protect their own files. 
+    
+    - Allow multiple network connections simultaneously, where each connection may be dealing with sensitive data. 
+
+- If every program had unfettered access to the CPU, main memory and the peripheral devices, all concepts of separation of programs and the data in memory, on disk etc. would not exist. 
+
+- A program could look at all memory locations, including that of other programs, as well as read all the data on all of the attached disks, and read all the data being sent across the network. 
+
+- To prevent this, we need the CPU to have at least two privilege levels. 
+
+- In kernel mode, the CPU has instructions to manage memory and how it can be accessed, plus the ability to access peripheral devices like disks and network cards. The CPU can also switch itself from one running program to another. 
+
+- In user mode, access to memory is limited to only some memory locations, and access to peripheral devices is denied. The ability to keep or relinquish the CPU is removed, and the CPU can be taken away from a program at any time. 
+
+- Now, all programs will be run in user mode, and this prevents them from accessing the data in other programs, as well as preventing the disk etc.
+
+- Applications run in user mode, and core operating system components run in kernel mode. While many drivers run in kernel mode, some drivers may run in user mode.
 
 ## 5 - 3.12 What is the difference between an interrupt and a trap?
 
