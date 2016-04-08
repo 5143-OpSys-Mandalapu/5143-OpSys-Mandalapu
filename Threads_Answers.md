@@ -24,7 +24,8 @@ Answer:
 sharedNumber = 1
             if sharedNumber != 1:
                 print ('A: that was weird')
-```In this case the sharedNumber would never be one as the program executes, hence it always prints "A: that was weird" and the same happens with the thread B.
+```
+In this case the sharedNumber would never be one as the program executes, hence it always prints "A: that was weird" and the same happens with the thread B.
 
 ####6. Does uncommenting the lock operations clear up the problem in question 5?
 
