@@ -4,7 +4,6 @@
 YO-SHELL Date: Feb 29,2016
 @Author: SaiChowdary Amaraneni
           Vishnu Chaitanya Mandalapu
-          Azharuddin Mohammed
 @Description:- This program will implement a subset of the existing 
 bash commands like copy,move,chmod etc that we use
 """
